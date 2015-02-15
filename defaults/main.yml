@@ -1,2 +1,5 @@
 ---
 # defaults file for ansible-mapr_zookeeper
+
+proxy_env: { }
+
