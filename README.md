@@ -22,7 +22,7 @@ Example Playbook
 ----------------
 
 ```
-- hosts: zookeepers
+- hosts: zookeeper
   max_fail_percentage: 0
   roles:
     - zookeeper
