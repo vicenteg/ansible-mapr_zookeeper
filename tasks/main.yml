@@ -4,4 +4,4 @@
   yum: name='{{item}}' state=present
   with_items:
     - mapr-zookeeper
-  environment: proxy_env
+  environment: '{{proxy_env}}'
